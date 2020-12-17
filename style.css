@@ -1,0 +1,422 @@
+.container{
+	width: 1200px;
+	margin: 0 auto;
+}
+.font{
+	text-align: center;
+	float: left;
+	margin:24px 0px 32px 0px;
+	width:200px;
+	height:39px;
+	font-size:50px;
+	font-weight:bold;
+	color:black;
+}
+.nav-info{
+	display: block;
+	float: left;
+	margin-left: 40px;
+}
+.nav-info li{
+	float: left;
+	margin-top: 38px;
+	margin-right: 22px;
+	padding:10px 4px; 
+	font-size:16px;
+	font-weight: bold;
+	text-align: center;
+}
+.nav-info li a{
+	color:#050505;
+}
+.nav-info li:hover{
+	border-bottom: 3px solid rgba(0,0,0,1);
+}
+.nav-info li:hover a{
+	color:#050505;
+}
+.form{
+	float: right;
+	margin-top: 36px;
+}
+#search{
+	float: left;
+	width: 342px;
+	padding-top: 13px;
+	padding-bottom: 12px;
+	padding-left: 19px;
+	border: 1px solid rgba(0,0,0,1);
+}
+#submit{
+	float: left;
+	width: 50px;
+	height: 43px;
+	border: 3px solid rgba(0,0,0,1);
+	background:rgba(0,0,0,1) url(img/fa-search.png) no-repeat center center;
+}
+input:focus{
+	outline:none;
+}
+#banner1{
+	display: inline-block;
+	width: 1200px;
+	height: 400px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+#banner2{
+	display: inline-block;
+	width: 1200px;
+	height: 400px;
+	position: absolute;
+	left: -1200px;
+	top: 0px;
+}
+.second{
+	/* background: url(img/banner.jpg) repeat; */
+	height: 400px;
+	width: 1200px;
+	overflow: hidden;
+}
+.secondul{
+	float: left;
+	margin-left: 50px;
+}
+.second ul{
+	width: 300px;
+	height: 100px;
+}
+.secondul li{
+	width: 500px;
+	height: 22px;
+	float: left;
+	font-size:20px;
+	padding-top: 16px;
+}
+#list{
+	position: absolute;
+	left: 10px;
+	top: 30px;
+}
+.secondul a{
+	color: black;
+}
+.secondul a:hover{
+	color: blue;
+}
+.son{
+	position: absolute;
+	left: 390px;
+	top: 100px;
+	width:800px;
+	height:50px;
+	font-size:60px;
+	font-weight:400;
+	color: red;
+}
+.back1{
+	height: 60px;
+	margin-top: 8px;
+}
+.li1{
+	width: 1000px;
+	float: left;
+}
+.back1 li{
+	float: left;
+	width: 120px;
+	margin-top: 21px;
+	border-left: 1px solid black;
+	text-align: center;
+	font-size:16px;
+	font-weight:bold;
+}
+.back1 li a{
+	color:#050505;
+}
+.three a:hover{
+	color: gray;
+}
+#tuijian{
+	width: 100px;
+	float: right;
+	margin-top:30px;
+	font-size: 12px;
+}
+#tuijian a{
+	color: black;
+}
+#table{
+	float: left;
+	width: 360px;
+	font-weight: bold;
+	text-align: center;
+	margin: auto 0px;
+}
+#login{
+	display: block;
+	margin-top: 8px;
+	height: 45px;
+}
+#table form input{
+	width: 80px;
+}
+.pailie a img{
+	display: block;
+	width: 90px;
+	height: 90px;
+	float: right;
+	margin-right: 20px;
+	margin-left: 28px;
+}
+.jieshi{
+	float: right;
+}
+.jieshi li{
+	float: right;
+	margin: 0 39px;
+	margin-top: 10px;
+	color: rgb(200,200,200);
+}
+.four{
+	height: 78px;
+}
+.yingxiong{
+	font-size:20px;
+	font-weight:400;
+	color:black;
+	float: left;
+	padding-top: 28px;
+}
+.liaojie{
+	float: right;
+	height:13px;
+	font-size:12px;
+	font-weight:400;
+	margin-top: 34px;
+	margin-right: 31px;
+}
+.liaojie a{
+	color:black;
+}
+.liaojie a:hover{
+	color: #00A4FF;
+}
+
+.five img{
+	display: block;
+	width: 228px;
+	height: 270px;
+	float: left;
+	margin-top: 12px;
+	margin-right: 12px;
+}
+
+.fanghu{
+	width:140px;
+	height:19px;
+	font-size:20px;
+	font-weight:400;
+	color:rgba(73,73,73,1);
+	margin-top: 37px;
+	float: left;
+	margin-right: 160px;
+}
+.six ul{
+	margin: 0 auto;
+	width: 1000px;
+	height: 78px;
+}
+
+.six li{
+	float: left;
+	height:17px;
+	font-size:16px;
+	font-weight:400;
+	padding-top: 41px;
+	padding-right: 80px;
+}
+
+.six li a{
+	color: black;
+}
+
+.six a:hover{
+	color: #868686;
+}
+
+.seven img{
+	display: inline-block;
+	width: 228px;
+	height: 270px;
+	float: left;
+	margin-left: 12px;
+}
+
+#noleft img{
+	margin-left: 0px;
+}
+
+.eight{
+	height: 78px;
+}
+
+.eight div div{
+	width: 100px;
+	height: 19px;
+	font-size: 20px;
+	font-weight: 400;
+	color: rgba(73,73,73,1);
+	padding-top: 33px;
+	padding-left: 3px;
+	float: left;
+}
+
+.nine img{
+	display: inline-block;
+	height: 400px;
+}
+
+.biyeji img{
+	width: 471px;
+	height: 320px;
+	margin-bottom: 10px;
+	float: left;
+}
+
+.son5{
+	position: absolute;
+	top: 40px;
+	left: 300px;
+	height:62px;
+	line-height:36px;
+	font-size: 27.2px;
+	color: red;
+}
+
+.son6{
+	border: 1px solid #F9E103;
+	width: 50px;
+	height: 16px;
+	padding: 3px 30px;
+	font-size: 8px;
+	position: absolute;
+	left: 300px;
+	top: 90px;
+}
+
+.son6 a{
+	color: yellow; 
+}
+
+.tupian img{
+	display: inline-block;
+	width: 228px;
+	height: 320px;
+	float: left;
+	margin-left: 12px;
+}
+
+.meigou{
+	position: absolute;
+	width: 130px;
+	height: 50px;
+	top: 100px;
+	left: 1020px;
+	font-size: 30px;
+	color: red;
+	font-weight: bold;
+}
+
+.ending{
+	height: 120px;
+    background-color: #000;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    line-height: 120px;
+ }
+ #move{
+ 	display: inline-block;	
+ 	height:60px;
+ 	width: 60px;
+ 	position:absolute;	
+ 	left: 1px;
+ 	top: 1px;
+ }
+ #first11{
+    width: 500px;
+    margin:0 auto;
+}
+.firstdiv{
+    width: 300px;
+    height: 50px;
+    line-height: 50px;
+    border: 1px solid gray;
+    margin: 40px 0;
+}
+.span1{
+    display: inline-block;
+    width: 80px;
+    text-align: center;
+}
+.noneBorder{
+	border: none;
+    outline-style: none;
+}
+ #myButton{
+    border: 0px;
+    width: 302px;
+    height: 50px;
+    background-color: red;
+    outline-style: none;
+}
+
+#myButton0{
+    border: 0px;
+    width: 302px;
+    height: 50px;
+    background-color: red;
+    outline-style: none;
+}
+#myButton00{
+    border: 0px;
+    width: 302px;
+    height: 50px;
+    background-color: red;
+    outline-style: none;
+}
+#theOne ,#theTwo{
+    margin: 5px 0px;
+    height: 10px;
+    font: normal lighter 1px '宋体';
+    color: gray;
+}
+.left{
+	float: left;
+}
+.right{
+   	float: right;
+  	margin: 30px 20px;
+	line-height: 80px;
+	color: red;
+}
+#erter0{
+	position: absolute;
+	top: 100px;
+	left: 500px;
+	margin:0 auto;
+}
+#erter1{
+	position: absolute;
+	top: 100px;
+	left: 500px;
+	margin:0 auto;
+}
+#tooltip {
+	position: fixed;
+	background: yellow;
+	display: inline;
+	border: 1px solid black;
+}
